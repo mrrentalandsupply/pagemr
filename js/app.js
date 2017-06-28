@@ -85,7 +85,7 @@ var data =[
 },
 /*COMPRESORES*/
 {
-  title: "COMPRESOR INGERSOLL RAND",
+  title: "VIBROCOMPACTADOR INGERSOLL RAND",
   category: categorys[2],
   model: "MODELO: P185WIR-2002",
   serial: "SERIAL: 330369UFM295 - MODELO: P185WIR-2002 - MARCA: INGERSOLL RAND",
