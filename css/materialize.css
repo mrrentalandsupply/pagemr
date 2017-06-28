@@ -1883,17 +1883,17 @@ button.btn-floating { border: none; }
 /* Firefox Bug: link not triggered */
 .waves-effect .waves-ripple { z-index: -1; }
 
-.modal { display: none; position: fixed; left: 0; right: 0; background-color: #fafafa; padding: 0; max-height: 70%; width: 55%; margin: auto; overflow-y: auto; border-radius: 2px; will-change: top, opacity; }
+.modal { display: none; position: fixed; left: 0; right: 0; background: #37474f; color: white; padding: 0; max-height: 80%; width: 55%; margin: auto; overflow-y: auto; border-radius: 2px; will-change: top, opacity; }
 @media only screen and (max-width: 992px) { .modal { width: 80%; } }
 .modal h1, .modal h2, .modal h3, .modal h4 { margin-top: 0; }
 .modal .modal-content { padding: 24px; }
 .modal .modal-close { cursor: pointer; }
-.modal .modal-footer { border-radius: 0 0 2px 2px; background-color: #fafafa; padding: 4px 6px; height: 56px; width: 100%; }
-.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat { float: right; margin: 6px 0; }
+.modal .modal-footer { border-radius: 0 0 2px 2px; padding: 4px 6px; height: 56px; width: 100%; }
+.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat { background-color: #546e7a; color: #ffffff; float: right; margin: 6px 0; }
 
 .modal-overlay { position: fixed; z-index: 999; top: -100px; left: 0; bottom: 0; right: 0; height: 125%; width: 100%; background: #000; display: none; will-change: opacity; }
 
-.modal.modal-fixed-footer { padding: 0; height: 70%; }
+.modal.modal-fixed-footer { padding: 0; height: 90%; }
 .modal.modal-fixed-footer .modal-content { position: absolute; height: calc(100% - 56px); max-height: 100%; width: 100%; overflow-y: auto; }
 .modal.modal-fixed-footer .modal-footer { border-top: 1px solid rgba(0, 0, 0, 0.1); position: absolute; bottom: 0; }
 
@@ -2666,15 +2666,23 @@ nav ul li a { font-family: 'Open Sans', sans-serif; font-size: 17px; }
 .machine p { color: #ffffff; font-family: 'Open Sans', sans-serif; font-size: 25px; }
 .machine .p-link { color: #e1f5fe; font-family: 'Open Sans', sans-serif; font-size: 20px; margin-top: -30px; }
 
+.footer { background: #424242; }
+.footer .footer-copyright { background: #00b8d4; }
 .footer h3 { color: #ffffff; font-family: 'Fjalla One', sans-serif; font-size: 40px; font-weight: bold; }
 .footer p { color: #ffffff; font-family: 'Open Sans', sans-serif; font-size: 25px; }
 .footer .p-info { color: #e1f5fe; font-family: 'Open Sans', sans-serif; font-size: 18px; margin-top: -5px; }
 
-.articles { background: #ffffff; padding: 40px; }
-.articles img { margin-top: 30px; height: 400px; width: 450px; }
-.articles h3 { color: #424242; font-family: 'Fjalla One', sans-serif; font-size: 40px; font-weight: bold; }
-.articles h4 { color: #424242; font-family: 'Fjalla One', sans-serif; font-size: 30px; }
-.articles p { color: #424242; font-family: 'Open Sans', sans-serif; font-size: 18px; }
-.articles .p-title { color: #424242; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; }
+.articles { background: #bdbdbd; padding: 40px; }
+.articles .col-machine { margin-top: 40px; }
+.articles img { border-radius: 50%; height: 300px; width: 310px; }
+.articles h3 { color: #424242; font-family: 'Fjalla One', sans-serif; font-size: 28px; font-weight: bold; }
+.articles p { color: #424242; font-family: 'Open Sans', sans-serif; font-size: 16px; }
+
+.modals h4 { color: white; font-family: 'Fjalla One', sans-serif; font-size: 32px; font-weight: bold; }
+.modals h6 { color: white; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; margin: 20px 0px; }
+.modals img { border-radius: 50%; height: 350px; width: 360px; }
+.modals p { color: white; font-family: 'Open Sans', sans-serif; font-size: 18px; }
+
+.input-field input[type=text] { color: #ffffff; }
 
 /*# sourceMappingURL=materialize.css.map */

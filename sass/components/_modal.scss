@@ -5,9 +5,10 @@
   position: fixed;
   left: 0;
   right: 0;
-  background-color: #fafafa;
+  background: #37474f ;
+  color: white;
   padding: 0;
-  max-height: 70%;
+  max-height: 80%;
   width: 55%;
   margin: auto;
   overflow-y: auto;
@@ -32,12 +33,13 @@
 
   .modal-footer {
     border-radius: 0 0 2px 2px;
-    background-color: #fafafa;
     padding: 4px 6px;
     height: 56px;
     width: 100%;
 
     .btn, .btn-flat {
+      background-color: #546e7a;
+      color: #ffffff;
       float: right;
       margin: 6px 0;
     }
@@ -61,7 +63,7 @@
 // Modal with fixed action footer
 .modal.modal-fixed-footer {
   padding: 0;
-  height: 70%;
+  height: 90%;
 
   .modal-content {
     position: absolute;

@@ -101,6 +101,12 @@ nav {
 
 .footer{
 
+    background: #424242;
+
+    .footer-copyright{
+        background: #00b8d4;
+    }
+    
     h3{
         color: $mr-white;
         font-family: 'Fjalla One', sans-serif;
@@ -124,39 +130,66 @@ nav {
 
 .articles{
 
-    background: $mr-white;
+    background: #bdbdbd;
     padding: 40px;
 
+    .col-machine{
+        margin-top: 40px;
+    }
+
     img{
-        margin-top: 30px;
-        height: 400px;
-        width: 450px;
+        border-radius: 50%;
+        height: 300px;
+        width: 310px;
     }
 
     h3{
         color: $mr-gray;
         font-family: 'Fjalla One', sans-serif;
-        font-size: 40px;
+        font-size: 28px;
         font-weight: bold;
-    }
-
-    h4{
-        color: $mr-gray;
-        font-family: 'Fjalla One', sans-serif;
-        font-size: 30px;
     }
 
     p{  
         color: $mr-gray;
         font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-    }
-
-    .p-title{
-        color: $mr-gray;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        font-weight: bold;
+        font-size: 16px;
     }
 
 }
+
+.modals{
+
+    h4{
+        color: white;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    h6{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0px;
+    }
+
+    img{
+        border-radius: 50%;
+        height: 350px;
+        width: 360px
+    }
+
+    p{  
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+}
+
+   .input-field input[type=text]{
+     color: #ffffff;
+   }
+
+
